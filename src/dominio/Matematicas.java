@@ -1,6 +1,29 @@
+/*
+Copyright [2022] [Daniel Fernández López]
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+    http://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/
+
 package dominio;
 
+/**
+ * La clase Matemáticas
+ * @author Daniel Fernández López
+ */
 public class Matematicas {
+
+    /**
+     * Método que realiza las operaciones aritméticas necesarias para representar la aproximación a Pi.
+     * @param intentos atributo que almacena el valor de intentos reqlizados.
+     * @return devuelve la solución de la aproximación a Pi.
+     */
     public static double generarNumeroPi(long intentos){
         double aciertos = 0.0;
         double areaCuadrado = 4.0;
