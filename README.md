@@ -16,8 +16,8 @@ permissions and limitations under the License.*/
 # MontecarloPi2022
 
 # Creador:
-
 * Daniel Fernández López
+
 # Objetivo:
 
 Este programa ha sido diseñado para poder realizar una aproximación al número Pi a partir del método de Monte Carlo.
@@ -32,7 +32,31 @@ Además, suponemos que ambas figuras se encontrarán representadas en los ejes d
 En el programa se establecen unos valores iniciales de aciertos e intentos que se van incrementando a partir de los bucles "for" e "if" a medida que se generan puntos aleatorios sobre la superficie. Constituyendo finalmente, la aproximación al número Pi como la división entre el área del cuadrado y el radio de la circunferencia al cuadrado.
 # Funcionalidad:
 
-* Para inicializar el programa deberá introducir en el terminal el comando (donde el número 100000 determina cuantos valores desea para realizar la aproximación): "java -jar ap-Matematicas.jar 100000"
+* Para inicializar el programa deberá introducir en el terminal el  el número de intentos que desea efectuar para llevar a cabo la aproximación
 
-* Una vez ejecutado el comando se imprimirá por pantalla el resultado de la aproximación.  
+* Una vez ejecutado el comando se imprimirá por pantalla el resultado de la aproximación.
+
+# Comandos:
+
+* Ejecución código: 
+```shell
+java -jar ap-Matematicas.jar X 
+```
+Donde X determina el número de intentos, por ejemplo 1000).
+
+* Compilación código:
+```shell
+make compilar
+```
+
+* Creación jar: 
+```shell
+make jar 
+```
+
+* Creación Javadoc: 
+```shell
+make javadoc
+```
+ 
 
