@@ -14,14 +14,14 @@ You may obtain a copy of the License at
 package dominio;
 
 /**
- * La clase Matemáticas
+ * La clase Matemáticas define las variables y métodos necesarios para llevar a cabo la aproximación.
  * @author Daniel Fernández López
  */
 public class Matematicas {
 
     /**
      * Método que realiza las operaciones aritméticas necesarias para representar la aproximación a Pi.
-     * @param intentos atributo que almacena el valor de intentos reqlizados.
+     * @param intentos atributo que almacena el valor del número de intentos reqlizados.
      * @return devuelve la solución de la aproximación a Pi.
      */
     public static double generarNumeroPi(long intentos){
