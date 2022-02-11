@@ -58,5 +58,5 @@ make jar
 ```shell
 make javadoc
 ```
- 
 
+![Copyright.png](Diagrama.png)
