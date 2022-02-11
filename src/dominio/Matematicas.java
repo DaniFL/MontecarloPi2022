@@ -14,31 +14,36 @@ You may obtain a copy of the License at
 package dominio;
 
 /**
- * La clase Matemáticas define las variables y métodos necesarios para llevar a cabo la aproximación.
+ * La clase Matemáticas define las variables y métodos necesarios para llevar a
+ * cabo la aproximación.
+ * 
  * @author Daniel Fernández López
  */
 public class Matematicas {
 
     /**
-     * Método que realiza las operaciones aritméticas necesarias para representar la aproximación a Pi.
-     * @param intentos atributo que almacena el valor del número de intentos reqlizados.
+     * Método que realiza las operaciones aritméticas necesarias para representar la
+     * aproximación a Pi.
+     * 
+     * @param intentos atributo que almacena el valor del número de intentos
+     *                 reqlizados.
      * @return devuelve la solución de la aproximación a Pi.
      */
-    public static double generarNumeroPi(long intentos){
+    public static double generarNumeroPi(long intentos) {
         double aciertos = 0.0;
         double areaCuadrado = 4.0;
 
-        for(int i=1; i<=intentos; i++){
-            double cordenadaX = Math.random()*2-1;
-            double cordenadaY = Math.random()*2-1;
-            if((cordenadaX*cordenadaX) + (cordenadaY*cordenadaY) <= 1){
+        for (int i = 1; i <= intentos; i++) {
+            double cordenadaX = Math.random() * 2 - 1;
+            double cordenadaY = Math.random() * 2 - 1;
+            if ((cordenadaX * cordenadaX) + (cordenadaY * cordenadaY) <= 1) {
                 intentos++;
                 aciertos++;
             }
         }
         double radio = 1.0;
-        double areaCirculo = areaCuadrado * (aciertos/intentos);
-        return areaCirculo/Math.pow(radio, 2);
+        double areaCirculo = areaCuadrado * (aciertos / intentos);
+        return areaCirculo / Math.pow(radio, 2);
     }
 
 }

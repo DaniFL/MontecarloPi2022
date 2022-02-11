@@ -17,17 +17,19 @@ import dominio.Matematicas;
 
 /**
  * Clase Principal que inicializa el programa.
+ * 
  * @author Daniel Fernández López
  */
 public class Principal {
 
     /**
      * Método main que lleva a cabo la ejecución del programa.
-     * @param args array de argumentos que define la ejecución del programa (intentos a realizar).
+     * 
+     * @param args array de argumentos que define la ejecución del programa
+     *             (intentos a realizar).
      */
-    public static void main(String[] args){
+    public static void main(String[] args) {
         long intentos = Long.parseLong(args[0]);
         System.out.println("El número Pi es " + Matematicas.generarNumeroPi(intentos));
     }
 }
-
