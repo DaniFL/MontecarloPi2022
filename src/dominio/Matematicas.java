@@ -45,5 +45,4 @@ public class Matematicas {
         double areaCirculo = areaCuadrado * (aciertos / intentos);
         return areaCirculo / Math.pow(radio, 2);
     }
-
 }
