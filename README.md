@@ -1,6 +1,6 @@
 ![Copyright.png](Copyright.png)
 
-/*Copyright [2022] [Daniel Fernández López] 
+Copyright [2022] [Daniel Fernández López] 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
@@ -10,7 +10,7 @@ You may obtain a copy of the License at
 Unless required by applicable law or agreed to in writing, software distributed
 under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS
 OF ANY KIND, either express or implied. See the License for the specific language governing
-permissions and limitations under the License.*/
+permissions and limitations under the License.
 
 
 # MontecarloPi2022
@@ -42,7 +42,7 @@ En el programa se establecen unos valores iniciales de aciertos e intentos que s
 ```shell
 java -jar ap-Matematicas.jar X 
 ```
-Donde X determina el número de intentos, por ejemplo 1000).
+Donde X determina el número de intentos, por ejemplo 1000.
 
 * Compilación código:
 ```shell
